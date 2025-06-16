@@ -1,10 +1,51 @@
-!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <title>My Static Web Page</title>
+    <title>Upstream Cognito Sign-in</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Open Sans", "Helvetica Neue", Roboto, Arial, sans-serif
+      }
+      .container {
+        margin-top: 40vh;
+        text-align: center;
+      }
+
+      .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        justify-content: space-between;
+      }
+
+      h1 {
+        color: blue;
+      }
+
+      .footer {
+        margin-top: 0;
+        padding-top: 0;
+        text-align: center;
+        padding: 3px;
+        color: green;
+      }
+    </style>
   </head>
   <body>
-    <h1>Welcome to My Static Web Page!</h1>
-    <p>This page is hosted using GitHub Pages.</p>
+    <div class="content-wrapper">
+      <div class="container">
+        <h1>Successfully Activated</h1>
+        <h3>
+          "Your account has been activated. You'll receive sign-in instructions from your administrator once your AgentNow setup is complete. Stay tuned!"
+        </h3>
+      </div>
+      <div>
+        <img src="https://www.upstreamworks.com/wp-content/uploads/2025/06/AN-MaleAgentPhone-250605.gif"
+      </div>
+      <div class="footer">
+        <i>This is the default redirect page for Upstream Cognito user pools account activation.</i>
+      </div>
+    </div>
   </body>
 </html>
